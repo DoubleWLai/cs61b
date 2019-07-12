@@ -78,8 +78,7 @@ public class IntList {
     /**
      * Returns a list consisting of the elements of A followed by the
      * *  elements of B.  May modify items of A. Don't use 'new'.
-     */
-
+     */q
     public static IntList dcatenate(IntList A, IntList B) {
         IntList  L = A;
         while (L.rest != null) {
