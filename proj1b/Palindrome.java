@@ -16,7 +16,9 @@ public class Palindrome {
     private boolean isPalindromeHelper(Deque d) {
         if (d.size() <= 1) {
             return true;
-        } else if(d.removeFirst() != d.removeLast()) {
+        } else if(d.size() % 2 != 0) {
+            return false;
+        }else if(d.removeFirst() != d.removeLast()) {
             return false;
         } else {
             return isPalindromeHelper(d);
