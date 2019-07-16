@@ -50,7 +50,7 @@ public class ArrayDeque<T> {
         size++;
     }
 
-    public T removeFitst() {
+    public T removeFirst() {
         T first = Array[0];
         T[] a = (T[]) new Object[Array.length -1];
         System.arraycopy(Array, 1, a, 0, size-1);

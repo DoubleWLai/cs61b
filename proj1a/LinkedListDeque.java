@@ -100,7 +100,7 @@ public class LinkedListDeque<T> {
         }
     }
 
-    public T traverse(ListNode n, int i) {
+    private T traverse(ListNode n, int i) {
         if (i == 0) {
             return n.item;
         } else {
