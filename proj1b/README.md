@@ -1,4 +1,4 @@
-# [Project 1B: Applying and Testing Data Structures version 1.0](https://sp18.datastructur.es/materials/proj/proj1b/proj1b)
+# [Project 1B: Applying and Testing Data Structures](https://sp18.datastructur.es/materials/proj/proj1b/proj1b)
 
 ## Introduction
 
