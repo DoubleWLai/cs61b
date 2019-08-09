@@ -6,7 +6,7 @@
 
 Implement all the methods:
 
-* `public void addFirst(T item)`: Add an item of type T to the front of the deque.
+* `public void addFirst(T item)`: Adds an item of type T to the front of the deque.
 * `public void addLast(T item)`: Adds an item of type T to the back of the deque.
 * `public boolean isEmpty()`: Returns true if deque is empty, false otherwise.
 * `public int size(): Returns the number of items in the deque.
