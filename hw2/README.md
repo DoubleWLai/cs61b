@@ -17,8 +17,8 @@ public class Percolation {
    - public boolean isFull(int row, int col)  // is the site (row, col) full?
    - public int numberOfOpenSites()           // number of open sites
    - public boolean percolates()              // does the system percolate?
-   - public static void main(String[] args)   // use for unit testing (not required)
-}
+   - public static void main(String[] args)   // use for unit testing (not required)  
+   }
 
 ## PercolationStats.java
 Monte Carlo simulation. To estimate the percolation threshold, consider the following computational experiment:
@@ -35,5 +35,5 @@ public class PercolationStats {
    - public double mean()                                           // sample mean of percolation threshold
    - public double stddev()                                         // sample standard deviation of percolation threshold
    - public double confidenceLow()                                  // low endpoint of 95% confidence interval
-   - public double confidenceHigh()                                 // high endpoint of 95% confidence interval
-}
+   - public double confidenceHigh()                                 // high endpoint of 95% confidence interval   
+   }
