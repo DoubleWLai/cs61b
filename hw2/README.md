@@ -1,4 +1,4 @@
-# [HW 1: Packages, Interfaces, Generics, Exceptions, Iteration](https://sp18.datastructur.es/materials/hw/hw2/hw2)
+# [HW 2: Percolation](https://sp18.datastructur.es/materials/hw/hw2/hw2)
 
 ## Introduction
 
@@ -11,13 +11,13 @@ The problem. In a famous scientific problem, researchers are interested in the f
 
 ## Percolation.java - API
 public class Percolation {
-   -public Percolation(int N)                // create N-by-N grid, with all sites initially blocked
-   -public void open(int row, int col)       // open the site (row, col) if it is not open already
-   -public boolean isOpen(int row, int col)  // is the site (row, col) open?
-   -public boolean isFull(int row, int col)  // is the site (row, col) full?
-   -public int numberOfOpenSites()           // number of open sites
-   -public boolean percolates()              // does the system percolate?
-   -public static void main(String[] args)   // use for unit testing (not required)
+   - public Percolation(int N)                // create N-by-N grid, with all sites initially blocked
+   - public void open(int row, int col)       // open the site (row, col) if it is not open already
+   - public boolean isOpen(int row, int col)  // is the site (row, col) open?
+   - public boolean isFull(int row, int col)  // is the site (row, col) full?
+   - public int numberOfOpenSites()           // number of open sites
+   - public boolean percolates()              // does the system percolate?
+   - public static void main(String[] args)   // use for unit testing (not required)
 }
 
 ## PercolationStats.java
@@ -31,9 +31,9 @@ The fraction of sites that are opened when the system percolates provides an est
 For example, if sites are opened in a 20-by-20 grid according to the snapshots below, then our estimate of the percolation threshold is 204/400 = 0.51 because the system percolates when the 204th site is opened. The images correspond to the 50, 100, 150, and 204 sites being open, respectively.
 
 public class PercolationStats {
-   -public PercolationStats(int N, int T, PercolationFactory pf)   // perform T independent experiments on an N-by-N grid
-   -public double mean()                                           // sample mean of percolation threshold
-   -public double stddev()                                         // sample standard deviation of percolation threshold
-   -public double confidenceLow()                                  // low endpoint of 95% confidence interval
-   -public double confidenceHigh()                                 // high endpoint of 95% confidence interval
+   - public PercolationStats(int N, int T, PercolationFactory pf)   // perform T independent experiments on an N-by-N grid
+   - public double mean()                                           // sample mean of percolation threshold
+   - public double stddev()                                         // sample standard deviation of percolation threshold
+   - public double confidenceLow()                                  // low endpoint of 95% confidence interval
+   - public double confidenceHigh()                                 // high endpoint of 95% confidence interval
 }
